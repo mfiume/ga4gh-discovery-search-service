@@ -6,6 +6,8 @@
 package org.ga4gh.discovery.search;
 
 import java.util.List;
+import org.ga4gh.discovery.search.query.SearchQuery;
+import org.ga4gh.discovery.search.query.result.SearchResult;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,5 +18,7 @@ import org.springframework.stereotype.Service;
 public interface SearchProvider {
 
     public List<Field> getFields();
+
+    public SearchResult search(SearchQuery query);
     
 }
