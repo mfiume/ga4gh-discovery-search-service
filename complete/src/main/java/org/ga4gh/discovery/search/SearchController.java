@@ -1,6 +1,6 @@
 package org.ga4gh.discovery.search;
 
-import org.ga4gh.discovery.search.query.result.SearchResult;
+import org.ga4gh.discovery.search.result.SearchResult;
 import org.ga4gh.discovery.search.query.SearchQuery;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

@@ -8,8 +8,8 @@ package org.ga4gh.discovery.search;
 import java.util.ArrayList;
 import java.util.List;
 import org.ga4gh.discovery.search.query.SearchQuery;
-import org.ga4gh.discovery.search.query.result.ResultRow;
-import org.ga4gh.discovery.search.query.result.SearchResult;
+import org.ga4gh.discovery.search.result.ResultRow;
+import org.ga4gh.discovery.search.result.SearchResult;
 import org.springframework.stereotype.Service;
 
 @Service

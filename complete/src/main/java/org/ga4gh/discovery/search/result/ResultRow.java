@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.ga4gh.discovery.search.query.result;
+package org.ga4gh.discovery.search.result;
 
 import java.util.List;
 
